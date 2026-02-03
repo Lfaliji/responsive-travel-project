@@ -1,3 +1,107 @@
 body {
   font-family: poppins, sans-serif;
 }
+
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/DJI_0550-1-1536x864.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 290px;
+  text-align: center;
+  opacity: 0.9; /*This opacity makes the background-image everything greyish, delete if unwanted*/
+}
+
+.hero h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+  margin: 0 auto;
+}
+
+.hero h3 {
+  color: white;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+  margin: 0 auto;
+}
+
+.hero p {
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.hero a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #272044;
+}
+
+.hero button {
+  padding: 16px 32px;
+}
+
+.head-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 64px;
+  width: 1170px;
+  height: 460px;
+  margin: 100px 0;
+  padding: 0 170px;
+}
+
+.box-city {
+}
+
+.box-city img {
+  width: 570px;
+  height: 461px;
+}
+
+.box-city-content {
+  width: 536px;
+  height: 100%;
+}
+
+.box-city-content h2 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.box-city-content h3 {
+  margin-top: 0;
+  margin: 7px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.box-city-content p {
+  line-height: 24px;
+}
+
+span {
+  font-weight: 700;
+}
