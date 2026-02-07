@@ -14,7 +14,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 290px;
+  padding: 200px;
   text-align: center;
   opacity: 0.9; /*This opacity makes the background-image everything greyish, delete if unwanted*/
 }
@@ -63,12 +63,22 @@ body {
   padding: 16px 32px;
 }
 
+button {
+  border: none;
+}
+
+button:hover {
+  background-color: #5a808f;
+  border: none;
+  border-radius: 4px;
+}
+
 .head-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 64px;
 
-  padding: 0 24px 100px;
+  padding: 0 24px;
   max-width: 1200px;
   margin: 100px auto;
 }
@@ -122,7 +132,7 @@ span {
   text-align: center;
   color: #272044;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .container-highlights-subtitle {
@@ -140,7 +150,7 @@ span {
 
 .grids-highlights {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 50px;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0 24px 100px;
   margin: 0 auto;
@@ -242,6 +252,11 @@ article a {
   height: 370px;
   aspect-ratio: 1/1;
   display: block;
+  transition: transform 200ms ease-in-out;
+}
+
+.grid-gallery img:hover {
+  transform: scale(1.1);
 }
 
 .gallery-content {
@@ -254,7 +269,7 @@ article a {
   text-align: center;
   color: #272044;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .gallery-subtitle {
@@ -266,7 +281,7 @@ article a {
   text-transform: uppercase;
   color: #272044;
   opacity: 0.3;
-  margin-bottom: 7px;
+  margin-bottom: 0px;
   padding-top: 100px;
 }
 
@@ -279,7 +294,6 @@ ul li {
 }
 
 ul li a {
-  text-decoration: none;
   color: white;
   opacity: 0.5;
 }
