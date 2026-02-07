@@ -10,13 +10,14 @@ body {
 .hero {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/DJI_0550-1-1536x864.jpg");
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/178/048/original/image1.jpg?1770493099");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 200px;
   text-align: center;
   opacity: 0.9; /*This opacity makes the background-image everything greyish, delete if unwanted*/
+  background-color: #0071d2; /*If background-image is not shown this background-color that is coded as the bottom layer will then show*/
 }
 
 .hero h1 {
@@ -205,7 +206,7 @@ article p {
 }
 
 article button {
-  background-color: #462cb3;
+  background-color: #1f4567;
   padding: 16px 32px;
   display: block;
   margin: 24px auto;
@@ -339,14 +340,14 @@ footer p a {
 
 footer p a:hover {
   color: rgb(185, 92, 185);
-  opacity: 1;
+
   font-weight: 900;
 }
 
 .footer-container {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../images/4-8306e789.png");
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/178/059/original/image12.png?1770493250");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
