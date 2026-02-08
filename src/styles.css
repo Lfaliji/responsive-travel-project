@@ -355,4 +355,243 @@ footer p a:hover {
   width: 100%;
   text-align: center;
   opacity: 0.9;
+  background-color: #0071d2; /*If background-image is not shown this background-color that is coded as the bottom layer will then show*/
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 40px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 72px;
+    margin: 0 auto;
+  }
+
+  .hero h3 {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+
+  .hero a {
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  .hero button {
+    padding: 8px 16px;
+  }
+
+  .head-grid {
+    grid-template-columns: 1fr;
+    margin: 10px auto 0px;
+    grid-gap: 0;
+  }
+
+  .box-city img {
+    width: 90%;
+    height: auto;
+    margin: 30px 20px;
+  }
+
+  .box-city-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .box-city-content h2 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .box-city-content h3 {
+    text-align: center;
+
+    font-size: 16px;
+
+    line-height: 18px;
+  }
+
+  .box-city-content p {
+    line-height: 22px;
+  }
+
+  .container-highlights {
+    width: 100%;
+  }
+
+  .container-highlights-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #272044;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .container-highlights-subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #272044;
+    opacity: 0.3;
+    margin-bottom: 7px;
+    padding-top: 50px;
+  }
+
+  .grids-highlights {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr;
+    padding: 0 24px 20px;
+    margin: 0 auto;
+  }
+
+  .grid-highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-gap: 0;
+  }
+
+  .grid-highlights img,
+  .grid-highlights iframe {
+    display: block;
+    width: 100%;
+
+    border: none;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  article h3 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  article div {
+    font-size: 13px;
+  }
+
+  article p {
+    font-size: 16px;
+  }
+
+  article button {
+    padding: 8px 16px;
+  }
+
+  article a {
+    font-size: 14px;
+  }
+
+  .grids-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-subtitle {
+    padding-top: 20px;
+    line-height: 20px;
+  }
+
+  .gallery-title {
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  /*Responsiveness*/
+
+  ul {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  ul li {
+    list-style-type: none;
+    font-size: 12px;
+  }
+
+  ul li a {
+    color: white;
+    opacity: 0.5;
+  }
+
+  ul li a:hover {
+    color: rgb(185, 92, 185);
+    opacity: 1;
+    font-weight: 700;
+  }
+
+  .footer-grids {
+    max-width: 1200px;
+    padding: 10px 10px;
+    grid-gap: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+  }
+
+  footer {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  footer h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  footer p {
+    opacity: 0.5;
+    font-size: 12px;
+    margin-top: 0;
+  }
+
+  footer p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+
+  footer p a:hover {
+    color: rgb(185, 92, 185);
+
+    font-weight: 900;
+  }
+
+  .footer-container {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/178/059/original/image12.png?1770493250");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 334px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.9;
+    background-color: #0071d2; /*If background-image is not shown this background-color that is coded as the bottom layer will then show*/
+  }
 }
