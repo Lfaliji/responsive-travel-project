@@ -94,7 +94,7 @@ body {
 }
 
 .mosque-image {
-  filter: grayscale(0.7);
+  filter: sepia(0.3);
 }
 
 .box-city-content {
