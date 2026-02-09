@@ -93,6 +93,10 @@ body {
   height: 461px;
 }
 
+.mosque-image {
+  filter: grayscale(0.7);
+}
+
 .box-city-content {
   height: 100%;
   max-width: 570px;
